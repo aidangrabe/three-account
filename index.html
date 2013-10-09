@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Send Message</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+
+    <form action="send-message.php" method="POST">
+        <label for="to">To:</label>
+        <input type="text" name="to" id="to" />
+
+        <label for="pass">Pin:</label>
+        <input type="password" name="pass" id="pass" />
+
+        <label for="msg">Message:</label>
+        <textarea name="msg" id="msg" rows="10"></textarea>
+
+        <input type="submit" value="Send" />
+    </form>
+
+</body>
+
+</html>

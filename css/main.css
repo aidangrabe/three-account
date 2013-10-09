@@ -1,0 +1,37 @@
+body, html {
+    background: #111;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10px 10%;
+}
+
+body * {
+    box-sizing: border-box;
+    color: #EEE;
+    display: block;
+    font-family: Trebuchet, Arial sans-serif;
+    margin: auto;
+}
+
+input, textarea {
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+
+input[type="text"], input[type="password"], textarea {
+    background: #222;
+    border: 1px solid #444;
+}
+
+input[type="submit"] {
+    color: #111;
+    margin-top: 20px;
+}
+
+label {
+    margin: 10px 0;
+}

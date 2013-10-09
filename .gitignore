@@ -1,0 +1,12 @@
+# config
+config.php
+
+# swap files
+*.swp
+
+# cookies
+lib/cookie.txt
+
+# test
+test.html
+test.php
