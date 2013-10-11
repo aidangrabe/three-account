@@ -19,11 +19,11 @@ $message    = trim($_POST['msg']);
 if (trim($_POST['pass']) != $CFG->password) die();
 
 $loginForm = new LoginForm($CFG->number, $CFG->pin);
-$loginForm->getHiddenFields(Url::LOGIN_FORM);
+$loginForm->getHiddenFields();
 $loginForm->send(Url::LOGIN);
 
 $message = new MessageForm($to, $message);
-$message->getHiddenFields(Url::SEND_MESSAGE_FORM);
+$message->getHiddenFields();
 $message->send(Url::SEND_MESSAGE);
 
 echo "Done";
